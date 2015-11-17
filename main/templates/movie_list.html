@@ -1,0 +1,16 @@
+{% load staticfiles %}
+
+
+<html>
+    <head>
+        <title>Test</title>
+    </head>
+        <body>
+            <ol>
+                {% for movie in movie_list %}
+                <li>{{ movie.dvd_title }}</li>
+                {% endfor %}
+            </ol>
+        </body>
+
+</html>
